@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "btoa": "^1.2.1",
+    "gif-frames": "^1.0.1",
     "proxysocket": "^1.2.0"
   },
   "devDependencies": {},

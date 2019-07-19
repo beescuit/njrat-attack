@@ -1,4 +1,8 @@
-const Client = require('./client')
+// This creates a connection to the server every 100ms
+// each connection opens a keylogger pop-up with the message "hello there"
+// resulting in 100% cpu usage, 100% disk usage (if the keylogger message is big enough) and crashes njrat
+
+const Client = require('./lib/client')
 
 setInterval(() => {
   const client = new Client({

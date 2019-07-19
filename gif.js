@@ -1,4 +1,4 @@
-// This tries to emulate a normal client, sending a fake desktop image and responding to keylogger requests
+// This connects and sends some frames via the CAP packet at a specific framerate
 
 const fs = require('fs')
 const Client = require('./lib/client')
@@ -22,8 +22,7 @@ const client = new Client({
     message: 'hello there'
   },
   cap: {
-    shouldAnswer: true,
-    file: fs.readFileSync('./assets/sample.jpg')
+    gif: fs.readFileSync('./milos.gif')
   }
 })
 
