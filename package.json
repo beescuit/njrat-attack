@@ -1,0 +1,16 @@
+{
+  "name": "njrat-attack",
+  "version": "1.0.0",
+  "description": "A set of tools to attack njrat servers",
+  "main": "index.js",
+  "dependencies": {
+    "btoa": "^1.2.1",
+    "proxysocket": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael R Pereira",
+  "license": "ISC"
+}
