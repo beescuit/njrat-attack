@@ -22,7 +22,7 @@ const client = new Client({
     message: 'hello there'
   },
   cap: {
-    gif: fs.readFileSync('./milos.gif')
+    gif: fs.readFileSync('./assets/milos.gif')
   }
 })
 
