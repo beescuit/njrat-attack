@@ -10,7 +10,7 @@ function formatCMD (cmd) {
 }
 
 function btoa (str) {
-  Buffer.from(str.toString(), 'binary').toString('base64')
+  return Buffer.from(str.toString(), 'binary').toString('base64')
 }
 
 module.exports = { formatCMD, btoa }
