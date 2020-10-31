@@ -2,7 +2,7 @@
 // each connection opens a keylogger pop-up with the message "hello there"
 // resulting in 100% cpu usage, 100% disk usage (if the keylogger message is big enough) and crashes njrat
 
-const Client = require('./lib/client')
+const Client = require('../lib/client')
 
 setInterval(() => {
   const client = new Client({
