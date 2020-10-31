@@ -3,13 +3,18 @@ Hi! this is a set of NodeJS scripts that can be used to attack Njrat servers
 
 ## Screenshots
 
+These screenshots are from the files in the `examples/` folder, which contains some PoCs of stuff that you can do with these scripts
+
 ### normalclient.js
+This simulates a normal njrat client
 ![gif of normalclient.js in action](https://i.bee.fail/O2S.gif)
 
 ### gif.js
+This can be used to play a GIF file njrat's screenshot area
 ![gif of gif.js in action](https://i.bee.fail/i7W.gif)
 
 ### flood.js
+This can be used as a DoS tool, results in 100% disk and CPU usage after some seconds, rendering NJRat unusable.
 ![gif of flood.js in action](https://i.bee.fail/CW0.gif)
 
 ## Protocol
